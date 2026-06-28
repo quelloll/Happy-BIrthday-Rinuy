@@ -24,7 +24,7 @@ const TIMELINE = [
 const SONGS = [
   { title: 'Kiss Me',                    artist: 'Sixpence None the Richer', file: 'musik1.mp3' },
   { title: 'Stand By Me',                artist: 'Ben E. King',              file: 'musik2.mp3' },
-  { title: "Can't Help Falling in Love", artist: 'Elvis Presley',            file: 'musik3.mp3' },
+  { title: "Can't Take My Eyes Off You", artist: 'Frankie Valli',            file: 'musik3.mp3' },
 ]
 
 const NOTES = [
@@ -48,9 +48,9 @@ const ZEN_MESSAGES = [
   { from: 'zen', text: 'HAPPY BIRTHDAYYY RINUYYY MY LOVEEEEE!! 🥳❤️', delay: 2800 },
   { from: 'zen', text: 'I REALLY HOPE YOU KNOW HOW SPECIAL YOU ARE TO ME', delay: 4200 },
   { from: 'zen', text: 'I LOOVEEEE YOUU YESTERDAY, TODAY, TOMORROW AND SURELY FOREVER INFINITY, ENDLESSLY ♾️♾️❤️❤️💐', delay: 5800 },
-  { from: 'zen', text: 'So today… just enjoy every moment. You deserve it all. ✨', delay: 7400 },
+  { from: 'zen', text: 'SO TODAY… JUST ENJOY EVERY MOMENT. YOU DESERVEE IT ALL. ✨', delay: 7400 },
   { from: 'airin', text: 'AWW BEBEYY 🥺', delay: 9200 },
-  { from: 'zen', text: 'I mean every word 💫', delay: 10600 },
+  { from: 'zen', text: 'I LOVE YAWWWWWWWWWW ', delay: 10600 },
 ]
 
 // ── WISH JOURNAL entries (persisted in localStorage) ──
@@ -763,7 +763,7 @@ Thank you for every memory we’ve made together, thank you for every laugh, eve
       {/* ── MUSIC ── */}
       <section className="section" style={{textAlign:'center'}}>
         <div className="aurora-bar" />
-        <p className="tag-line">— our songs —</p>
+        <p className="tag-line">— Songs For You —</p>
         <h2 className="sec-title">Special Playlist</h2>
         <MusicPlayer songs={SONGS} currentSong={currentSong} setCurrentSong={setCurrentSong} playing={playing} setPlaying={setPlaying} />
       </section>
@@ -825,7 +825,7 @@ Thank you for every memory we’ve made together, thank you for every laugh, eve
         <p className="sec-sub" style={{fontStyle:'italic'}}>May your life always be filled with light and love</p>
         <p className="footer-wish">
           Happy Birthday, Airin 🎂<br/>
-          May this year bring you more love than your heart can hold, more laughter than you can count, and more moments that take your breath away. You are so loved — more than words could ever say.
+          May this year bring you more love than your heart can hold, more laughter than you can count, and more moments that take your breath away. You are so loved more than words could ever say.
         </p>
         <p className="footer-sign">— Zen ❤️</p>
       </section>

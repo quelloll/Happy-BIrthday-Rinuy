@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 
-const SECRET = '162517'
+const SECRET = '110625'
 
 const FLOWERS = [
   { emoji: '💐', name: 'Bouquet',        color: '#c084fc', glow: '#7c3aed', msg: 'You are a beautiful mix of everything wonderful — complete, vibrant, and cherished.' },
@@ -43,13 +43,13 @@ const PETAL_COLORS = ['#c084fc','#f0c040','#38bdf8','#e879f9','#ffffff','#a78bfa
 
 // ── CHAT MESSAGES from Zen ──
 const ZEN_MESSAGES = [
-  { from: 'zen', text: 'Hey… are you there? 👀', delay: 0 },
+  { from: 'zen', text: 'HALOOWW RINUYYY BEBEEYY 👀', delay: 0 },
   { from: 'zen', text: 'I just wanted to say something to you today.', delay: 1400 },
-  { from: 'zen', text: 'Happy birthday, Airin 🎂', delay: 2800 },
-  { from: 'zen', text: 'I hope you know how special you are to me.', delay: 4200 },
-  { from: 'zen', text: 'Every single day with you is a gift I never take for granted 💜', delay: 5800 },
+  { from: 'zen', text: 'HAPPY BIRTHDAYYY RINUYYY MY LOVEEEEE!! 🥳❤️', delay: 2800 },
+  { from: 'zen', text: 'I REALLY HOPE YOU KNOW HOW SPECIAL YOU ARE TO ME', delay: 4200 },
+  { from: 'zen', text: 'I LOOVEEEE YOUU YESTERDAY, TODAY, TOMORROW AND SURELY FOREVER INFINITY, ENDLESSLY ♾️♾️❤️❤️💐', delay: 5800 },
   { from: 'zen', text: 'So today… just enjoy every moment. You deserve it all. ✨', delay: 7400 },
-  { from: 'airin', text: 'aww zen… 🥺', delay: 9200 },
+  { from: 'airin', text: 'AWW BEBEYY 🥺', delay: 9200 },
   { from: 'zen', text: 'I mean every word 💫', delay: 10600 },
 ]
 
@@ -669,7 +669,7 @@ function MainPage({ activeFlower, setActiveFlower, currentSong, setCurrentSong, 
         <div className="aurora-bar" />
         <p className="eyebrow">your special day</p>
         <h1 className="hero-h1">
-          <TW text="Happy" d={0}/>{' '}<TW text="Birthday" d={640}/>{' '}<TW text="Airin" d={1280}/>
+          <TW text="Happy" d={0}/>{' '}<TW text="Birthday Rinuy" d={640}/>{' '}<TW text="My Love ❤️" d={1280}/>
         </h1>
         <TW className="hero-sub" text="the most beautiful day for you" d={1900}/>
       </section>
@@ -719,11 +719,9 @@ function MainPage({ activeFlower, setActiveFlower, currentSong, setCurrentSong, 
         <div className="letter-paper">
           <div className="letter-deco">💌</div>
           <p>My dearest Airin,</p>
-          <p>Happy birthday, my love. Today the world gets a little brighter simply because you are in it.</p>
-          <p>I think about how much you have grown, how much you have given to everyone around you, and I am in awe. You carry so much grace in the way you move through life — and you do not even see it. I do. I see it every single day.</p>
-          <p>You deserve every good thing — every laugh, every quiet morning, every dream that has been waiting for you. I hope this birthday feels like a warm hug from the universe, because that is exactly what you deserve.</p>
-          <p>No matter what comes next, through every season and every chapter, I will be cheering for you the loudest.</p>
-          <p className="ps-line">P.S — I will always be here for you, today, tomorrow, and forever.</p>
+          <p>today is the most special day because it’s the day the most beautiful soul came into this world, happy birthday my love ihope you always surrounded by happiness, laughter, and all the love you deserve, if I could give you the whole world, i honestly would, because nothing compares to how much you mean to me rinuy thank you for being the light in my life thank you for your smile that can brighten even my darkest days, for your kindness, your love, your patience, and for simply being yourself you make everything feel so much better just by existing, and I don’t think i’ll ever be able to thank you enough for all the happiness you’ve brought into my life, i hope this new year of your life is filled with beautiful memories, exciting adventures, endless laughter, and dreams coming true one by one, i hope you stay healthy, continue chasing everything you’ve ever wanted, and never stop believing in yourself. You are so much stronger, smarter, kinder, and more amazing than you sometimes realize, and I hope you always remember that
+i know life isn’t always easy, there will be moments when things feel difficult or overwhelming, but i hope you never forget that you don’t have to go through them alone, i’ll always be here to support you, cheer you on, celebrate your victories, comfort you when you’re sad, and remind you how incredibly loved you are no matter what happens, i want to be someone you can always count on.
+Thank you for every memory we’ve made together, thank you for every laugh, every conversation, every late night talk, every little moment that may seem ordinary but means everything to me because i got to spend it with you. Being with you has made my life so much brighter, and every day i spend loving you feels like a gift, you deserve a love that makes you feel safe, appreciated, respected, and cherished every single day, i hope i can continue being someone who makes you smile, someone who reminds you how beautiful your heart is, and someone who makes you feel just as special as you truly are, i wish i could spend every second of today celebrating with you, making you laugh, giving you the biggest hug, and reminding you over and over how much you mean to me, even if i can’t be there every moment, please know that you’re in my thoughts, and I’m celebrating you with all my heart, happy 15th birthday rinuy my babyyy, i hope this year brings you countless reasons to smile, wonderful opportunities, unforgettable memories, and all the happiness your heart can hold may every candle you blow out carry a wish that eventually comes true, i promise to keep supporting you, believing in you, and caring about you through every chapter of your life, i hope we continue making beautiful memories together, laughing over silly things, growing together, and celebrating many more birthdays side by side, thank you for being the amazing person you are, thank you for choosing me, loving me, and making me feel like the luckiest person in the world, you truly are one of the best things that has ever happened to me, and I never want to take that for granted, once again, happy birthday, my beautiful rinuy.  may your heart always be full of peace, your smile never fade, and your dreams always find their way to you. i love you more than words could ever express, and i’ll keep choosing you every single day, enjoy your special day, my princess you deserve every bit of happiness this world has to offer happy birthday rinuyyy, i loooveeee youuu infinitely endlessly forever and ever ♾️♾️❤️❤️💕💕🤞🏻🤞🏻🫶🏻🫶🏻</p>
           <p className="sign-line">With my love,<br/><strong>Zen</strong></p>
         </div>
       </section>

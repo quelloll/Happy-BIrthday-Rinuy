@@ -44,7 +44,7 @@ const PETAL_COLORS = ['#c084fc','#f0c040','#38bdf8','#e879f9','#ffffff','#a78bfa
 // ── CHAT MESSAGES from Zen ──
 const ZEN_MESSAGES = [
   { from: 'zen', text: 'HALOOWW RINUYYY BEBEEYY 👀', delay: 0 },
-  { from: 'zen', text: 'I just wanted to say something to you today.', delay: 1400 },
+  { from: 'zen', text: 'I JUST WANNA SAY SOMETHING', delay: 1400 },
   { from: 'zen', text: 'HAPPY BIRTHDAYYY RINUYYY MY LOVEEEEE!! 🥳❤️', delay: 2800 },
   { from: 'zen', text: 'I REALLY HOPE YOU KNOW HOW SPECIAL YOU ARE TO ME', delay: 4200 },
   { from: 'zen', text: 'I LOOVEEEE YOUU YESTERDAY, TODAY, TOMORROW AND SURELY FOREVER INFINITY, ENDLESSLY ♾️♾️❤️❤️💐', delay: 5800 },
@@ -398,7 +398,7 @@ function ZenChat() {
             <div className="chat-avatar">Z</div>
             <div>
               <p className="chat-name">Zen</p>
-              <p className="chat-status">{done ? 'Message sent with love 💜' : 'typing…'}</p>
+              <p className="chat-status">{done ? 'Message sent with love ❤️' : 'typing…'}</p>
             </div>
           </div>
           <div className="chat-body" ref={chatBodyRef}>
